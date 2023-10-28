@@ -19,10 +19,10 @@ useful in applications like video surveillance and picture retrieval systems. Th
 detection is to locate instances of a current set of object classes (such as ”people, cars, bikes, and
 animals”) and to use a bounding box to map out where each object was located inside the image.
 Every object class includes distinguishing qualities that make it easier to classify the objects; for
-example, all circles are spherical. Detecting the object class is done using these distinctive properties. 
+example, all circles are spherical. Detecting the object class is done using these distinctive properties. 
 When searching for circles, one can look for objects that are a specific distance from the centreor a point. 
 Finding objects with equal side lengths and perpendicular corners is required, much like
-looking for squares. Similar techniques are used to recognise faces using characteristics including skin tone, 
+looking for squares. Similar techniques are used to recognise faces using characteristics including skin tone, 
 the space between the eyes, the eyes, the nose, and the lips.
 The two main types of object detection methods are non-neural approaches and neural network-based
 methods. It becomes necessary for non-neural approaches to first define features using one of the
